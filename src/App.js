@@ -1,9 +1,11 @@
+import Movies from './routes/Movies';
+
 function App() {
 	return (
 		<>
-			<header>Header</header>
+			<header>Menu Link</header>
 			<main>
-				<h1>Hello World</h1>
+				<Movies />
 			</main>
 		</>
 	);
