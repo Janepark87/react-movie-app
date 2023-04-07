@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<header>
 				<Navigation />
 			</header>
